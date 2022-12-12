@@ -1,0 +1,87 @@
+* {
+    Font-family: monsterrat, sans-serif;
+}
+
+:root {
+    --clr-green: #40ae9e;
+    --clr-darkgreen: #1d8a7a;
+    --clr-yellow: #d8d84a;
+}
+
+body {
+    margin: 0;
+    Font-family: monsterrat, sans-serif;
+    background-size: cover; 
+    background-position: top center;
+}
+
+/* navbar */
+
+nav {
+    padding-top: em;
+    padding-left: 3em;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(241, 241, 241);
+    opacity: 100%;
+}
+
+.viniminilogo {
+    float:left;
+    padding-right: 20em;
+}
+
+.voormini, .producten, .nieuws, .contact, .zoeken {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    Font-family: monsterrat, sans-serif;
+    opacity: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.navbar a:hover {
+    background-color: var(--clr-green);
+    border-radius: 5%;
+}
+
+.viniminilogo {
+    width: 4em;
+    padding-left: 3em;
+    padding-bottom: 10px;
+}
+
+.titelvinimini {
+    color: var(--clr-green);
+    margin-left: 1.45em;
+}
+
+.inleidingvinimini {
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 40em;
+    margin-left: 3em;
+}
+
+.btn-account {
+    margin-left: 3em;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: var(--clr-green);
+    border-radius: 30px;
+    border: 2px solid #40ae9e;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    padding: 5px;
+}
+
+.btn-account:hover {
+    background-color: var(--clr-green);
+    color: white;
+}
