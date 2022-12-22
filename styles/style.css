@@ -56,18 +56,19 @@ nav {
 
 .titelvinimini {
     color: var(--clr-green);
-    margin-left: 1.45em;
+    text-align: center;
 }
 
 .inleidingvinimini {
     font-size: 16px;
     font-weight: normal;
-    margin-right: 40em;
-    margin-left: 3em;
+    margin-right: 30em;
+    margin-left: 30em;
+    text-align: center;
 }
 
 .btn-account {
-    margin-left: 3em;
+    margin-left: 38em;
     background-color: white;
     font-weight: bold;
     font-size: 16px;
@@ -79,6 +80,7 @@ nav {
     cursor: pointer;
     transition: 0.2s ease-in-out;
     padding: 5px;
+    text-align: center;
 }
 
 .btn-account:hover {

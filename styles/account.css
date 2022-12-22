@@ -73,7 +73,6 @@ nav {
     text-align: center;
     display: inline-block;
     width: 400px;
-    height: 430px;
     border-radius: 5%;
     background: #ffffff;
     box-shadow: 0px 1px 20px 1px rgb(119, 119, 119);
@@ -103,6 +102,10 @@ input:hover {
     border-color: var(--clr-darkgreen);
 }
 
+input:invalid {
+    border: 2px solid red;
+}
+
 .miniaanmaken {
     background-color: white;
     font-weight: bold;
@@ -115,7 +118,7 @@ input:hover {
     height: 45px;
     width: 150px;
     cursor: pointer;
-    margin-bottom: 100px;
+    margin-bottom: 15px;
     margin-top: 20px;
     transition: 0.2s ease-in-out;
     padding: 10px;
