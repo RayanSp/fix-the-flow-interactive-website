@@ -51,6 +51,7 @@ nav {
     width: 4em;
     padding-left: 3em;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 .formuliertext {
@@ -59,7 +60,7 @@ nav {
 }
 
 .formuliertext2 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: lighter;
     margin-top: 90px;
 }
@@ -92,7 +93,7 @@ nav {
     width: 150px;
     cursor: pointer;
     margin-bottom: 100px;
-    margin-top: 30px;
+    margin-top: 10px;
     transition: 0.2s ease-in-out;
     padding: 5px;
 }
@@ -102,3 +103,44 @@ nav {
     color: white;
 }
 
+.vorigevraag {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: var(--clr-green);
+    border-radius: 30px;
+    border: 2px solid #40ae9e;
+    height: 45px;
+    width: 150px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    transition: 0.2s ease-in-out;
+    padding: 5px;
+}
+
+.vorigevraag:hover {
+    background: var(--clr-green);
+    color: white;
+}
+
+.volgendevraag {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: var(--clr-green);
+    border-radius: 30px;
+    border: 2px solid #40ae9e;
+    height: 45px;
+    width: 150px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    transition: 0.2s ease-in-out;
+    padding: 5px;
+}
+
+.volgendevraag:hover {
+    background: var(--clr-green);
+    color: white;
+}

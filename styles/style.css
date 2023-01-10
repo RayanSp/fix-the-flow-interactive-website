@@ -52,6 +52,7 @@ nav {
     width: 4em;
     padding-left: 3em;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 .titelvinimini {

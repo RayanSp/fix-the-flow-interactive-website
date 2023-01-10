@@ -9,7 +9,7 @@
 
 <body>
     <nav class="navbar">
-        <img src="images/viniminilogo.avif" href="#" class="viniminilogo" alt="logo">
+        <img src="images/viniminilogo.avif" href="https://vinimini.nl/" class="viniminilogo" alt="logo">
         <a href="voor">Voor Mini</a>
         <a href="Producten">Vini Mini Producten</a>
         <a href="Nieuws">Nieuws</a>
@@ -19,20 +19,127 @@
 
     <section>
       <div class="testformulier">
+        <div class="formuliervraag">
         <h1 class="formuliertext">Start hier de test</h1>
         <h2 class="formuliertext2">
           <p>
             Deze test duurt ongeveer 3 minuten
           </p>
           <p>
-            Na deze test zul jij een overzicht krijgen speciaal voor jou Mini! In deze overzicht zie je wanneer jij je kindje moet voeden om allergieën tegen te gaan.
+            Na deze test zul jij een overzicht krijgen speciaal voor jou Mini! In dit overzicht zie je wanneer jij je kindje moet voeden om allergieën tegen te gaan.
           </p>
           <p class="arrowdown">
             &#8595;
           </p>
         </h2>
-        <button class="testbutton" onclick="next()">Test</button>
+        <button class="testbutton" onclick="next(1)">Test</button>
+        </div>
+
+        <div class="formuliervraag">
+          <h1 class="formuliertext">Vraag 1</h1>
+          <h2 class="formuliertext2">
+            <p>
+              Hoe heet jou mini?
+            </p>
+            <input type="text" name="name" placeholder="naam" required>
+          </h2>
+          <a class="vorigevraag" onclick="next(-1)">Vorige</a>
+          <a class="volgendevraag" onclick="next(1)">Volgende</a>
+          </div>
+
+          <div class="formuliervraag">
+            <h1 class="formuliertext">Vraag 2</h1>
+            <h2 class="formuliertext2">
+              <p>
+                Wat is de geboortedatum van jou mini?
+              </p>
+              <input type="date" name="borndate" placeholder="geboortedatum" required>
+            </h2>
+            <a class="vorigevraag" onclick="next(-1)">Vorige</a>
+            <a class="volgendevraag" onclick="next(1)">Volgende</a>
+            </div>
+
+            <div class="formuliervraag">
+              <h1 class="formuliertext">Vraag 3</h1>
+              <h2 class="formuliertext2">
+                <p>
+                  Is dit je eerste kindje?
+                </p>
+                <label class="radiobtn">Ja
+                <input type="radio" name="radio" checked>
+                </label>
+                <label class="radiobtn">Nee
+                <input type="radio" name="radio" checked>
+                </label>
+              </h2>
+              <a class="vorigevraag" onclick="next(-1)">Vorige</a>
+              <a class="volgendevraag" onclick="next(1)">Volgende</a>
+              </div>
+
+              <div class="formuliervraag">
+                <h1 class="formuliertext">Vraag 4</h1>
+                <h2 class="formuliertext2">
+                  <p>
+                    Heeft je kindje ooit eerder een acute allergische reactie gehad na het eten?
+                  </p>
+                  <label class="radiobtn">Ja
+                  <input type="radio" name="radio" checked>
+                  </label>
+                  <label class="radiobtn">Nee
+                  <input type="radio" name="radio" checked>
+                  </label>
+                  <label class="radiobtn">Weet ik niet
+                    <input type="radio" name="radio" checked>
+                  </label>
+                </h2>
+                <a class="vorigevraag" onclick="next(-1)">Vorige</a>
+                <a class="volgendevraag" onclick="next(1)">Volgende</a>
+                </div>
+
+                <div class="formuliervraag">
+                  <h1 class="formuliertext">Vraag 5</h1>
+                  <h2 class="formuliertext2">
+                    <p>
+                      Heeft je kindje eczeem?
+                    </p>
+                    <label class="radiobtn">Ja
+                    <input type="radio" name="radio" checked>
+                    </label>
+                    <label class="radiobtn">Nee
+                    <input type="radio" name="radio" checked>
+                    </label>
+                    <label class="radiobtn">Weet ik niet
+                      <input type="radio" name="radio" checked>
+                    </label>
+                  </h2>
+                  <a class="vorigevraag" onclick="next(-1)">Vorige</a>
+                  <a class="volgendevraag" onclick="next(1)">Volgende</a>
+                  </div>
+
+                  <div class="formuliervraag">
+                    <h1 class="formuliertext">Vraag 6</h1>
+                    <h2 class="formuliertext2">
+                      <p>
+                        Zijn er voedselallergieën in de rest van het gezin? 
+                      </p>
+                      <label class="radiobtn">Ja
+                      <input type="radio" name="radio" checked>
+                      </label>
+                      <label class="radiobtn">Nee
+                      <input type="radio" name="radio" checked>
+                      </label>
+                      <label class="radiobtn">Weet ik niet
+                        <input type="radio" name="radio" checked>
+                      </label>
+                    </h2>
+                    <a class="vorigevraag" onclick="next(-1)">Vorige</a>
+                    <a class="volgendevraag" onclick="next(1)">Volgende</a>
+                    </div>
+
       </div>
+
+      
+
     </section>
 
     <script src="scripts/script.js"></script>
