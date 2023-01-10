@@ -65,6 +65,19 @@ nav {
     margin-top: 90px;
 }
 
+.inputvraag1, .inputvraag2 {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    padding: 20px;
+    width: 300px;
+    height: 32px;
+    border: 2px solid black;
+    font-size: 16px;
+    transition: 0.2s ease-in-out;
+}
+
 .testformulier {
     text-align: center;
     display: inline-block;
@@ -82,6 +95,7 @@ nav {
 }
 
 .testbutton {
+    display: flex;
     background-color: white;
     font-weight: bold;
     font-size: 16px;
@@ -90,12 +104,13 @@ nav {
     border-radius: 30px;
     border: 2px solid #40ae9e;
     height: 45px;
-    width: 150px;
+    width: 60px;
     cursor: pointer;
     margin-bottom: 100px;
     margin-top: 10px;
     transition: 0.2s ease-in-out;
-    padding: 5px;
+    padding: 9px;
+    margin-left: 172px;
 }
 
 .testbutton:hover {
@@ -103,20 +118,27 @@ nav {
     color: white;
 }
 
+.labelinput {
+    display: block;
+    font-size: 16px;
+}
+
 .vorigevraag {
+    display: inline-flex;
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 1px;
     color: var(--clr-green);
     border-radius: 30px;
     border: 2px solid #40ae9e;
-    height: 45px;
-    width: 150px;
+    height: 20px;
+    width: 55px;
     cursor: pointer;
     margin-bottom: 100px;
-    margin-top: 30px;
+    margin-top: 47px;
+    margin-left: 3px;
     transition: 0.2s ease-in-out;
-    padding: 5px;
+    padding: 10px;
 }
 
 .vorigevraag:hover {
@@ -125,19 +147,21 @@ nav {
 }
 
 .volgendevraag {
+    display: inline-flex;
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 1px;
     color: var(--clr-green);
     border-radius: 30px;
     border: 2px solid #40ae9e;
-    height: 45px;
-    width: 150px;
+    height: 21px;
+    width: 78px;
     cursor: pointer;
     margin-bottom: 100px;
-    margin-top: 30px;
+    margin-top: 45px;
+    margin-left: 100px;
     transition: 0.2s ease-in-out;
-    padding: 5px;
+    padding: 9px;
 }
 
 .volgendevraag:hover {
