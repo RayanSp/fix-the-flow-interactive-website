@@ -29,4 +29,4 @@ function showVraag(n) {
     }
 
     vragen[vraagNummer - 1].style.display = "block";
-}
+}   
