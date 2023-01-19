@@ -42,7 +42,7 @@
               Hoe heet jou mini?
             </p>
             <!-- <label class="labelinput">Naam -->
-            <input class="inputvraag1" type="text" name="name" placeholder="naam" required>
+            <input class="inputvraag1" id="inputtest" type="text" name="name" placeholder="naam" required>
             <!-- </label> -->
           </h2>
           <a class="vorigevraag" onclick="next(-1)">Vorige</a>
@@ -52,8 +52,8 @@
           <div class="formuliervraag">
             <h1 class="formuliertext">Vraag 2</h1>
             <h2 class="formuliertext2">
-              <p>
-                Wat is de geboortedatum van jou mini?
+              <p id="jeroen">
+                Wat is de geboortedatum van ?
               </p>
               <input class="inputvraag2" type="date" name="borndate" placeholder="geboortedatum" required>
             </h2>
@@ -67,12 +67,14 @@
                 <p>
                   Is dit je eerste kindje?
                 </p>
-                <label class="radiobtn">Ja
-                <input type="radio" name="radio" checked>
+                <div class="check-vragen">
+                <label class="radiobtn">
+                <input type="radio" name="radio" checked> Ja
                 </label>
-                <label class="radiobtn">Nee
-                <input type="radio" name="radio" checked>
+                <label class="radiobtn">
+                <input type="radio" name="radio" checked> Nee
                 </label>
+                </div>
               </h2>
               <a class="vorigevraag" onclick="next(-1)">Vorige</a>
               <a class="volgendevraag" onclick="next(1)">Volgende</a>
@@ -84,15 +86,17 @@
                   <p>
                     Heeft je kindje ooit eerder een acute allergische reactie gehad na het eten?
                   </p>
-                  <label class="radiobtn">Ja
-                  <input type="radio" name="radio" checked>
+                  <div class="check-vragen">
+                  <label class="radiobtn">
+                  <input type="radio" name="radio" checked> Ja
                   </label>
-                  <label class="radiobtn">Nee
-                  <input type="radio" name="radio" checked>
+                  <label class="radiobtn">
+                  <input type="radio" name="radio" checked> Nee
                   </label>
-                  <label class="radiobtn">Weet ik niet
-                    <input type="radio" name="radio" checked>
+                  <label class="radiobtn">
+                    <input type="radio" name="radio" checked> Weet ik niet
                   </label>
+                  </div>
                 </h2>
                 <a class="vorigevraag" onclick="next(-1)">Vorige</a>
                 <a class="volgendevraag" onclick="next(1)">Volgende</a>
@@ -104,15 +108,17 @@
                     <p>
                       Heeft je kindje eczeem?
                     </p>
-                    <label class="radiobtn">Ja
-                    <input type="radio" name="radio" checked>
+                    <div class="check-vragen">
+                    <label class="radiobtn">
+                    <input type="radio" name="radio" checked> Ja
                     </label>
-                    <label class="radiobtn">Nee
-                    <input type="radio" name="radio" checked>
+                    <label class="radiobtn">
+                    <input type="radio" name="radio" checked> Nee
                     </label>
-                    <label class="radiobtn">Weet ik niet
-                      <input type="radio" name="radio" checked>
+                    <label class="radiobtn">
+                      <input type="radio" name="radio" checked> Weet ik niet
                     </label>
+                    </div>
                   </h2>
                   <a class="vorigevraag" onclick="next(-1)">Vorige</a>
                   <a class="volgendevraag" onclick="next(1)">Volgende</a>
@@ -124,15 +130,17 @@
                       <p>
                         Zijn er voedselallergieën in de rest van het gezin? 
                       </p>
-                      <label class="radiobtn">Ja
-                      <input type="radio" name="radio" checked>
+                      <div class="check-vragen">
+                      <label class="radiobtn">
+                      <input type="radio" name="radio" checked> Ja
                       </label>
-                      <label class="radiobtn">Nee
-                      <input type="radio" name="radio" checked>
+                      <label class="radiobtn">
+                      <input type="radio" name="radio" checked> Nee
                       </label>
-                      <label class="radiobtn">Weet ik niet
-                        <input type="radio" name="radio" checked>
+                      <label class="radiobtn">
+                        <input type="radio" name="radio" checked> Weet ik niet
                       </label>
+                      </div>
                     </h2>
                     <a class="vorigevraag" onclick="next(-1)">Vorige</a>
                     <a class="volgendevraag" onclick="next(1)" href="https://vinimini.nl/">Afronden</a>

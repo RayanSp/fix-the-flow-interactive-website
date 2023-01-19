@@ -56,13 +56,16 @@ nav {
 
 .formuliertext {
     font-size: 25px;
+    padding-top: 1.25em;
     color: var(--clr-darkgreen);
 }
 
 .formuliertext2 {
     font-size: 20px;
     font-weight: lighter;
-    margin-top: 90px;
+    margin-top: 50px;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .inputvraag1, .inputvraag2 {
@@ -79,6 +82,20 @@ nav {
 }
 
 .testformulier {
+    /* text-align: center;
+    display: inline-block;
+    width: 400px;
+    height: 430px;
+    border-radius: 5%;
+    background: #ffffff;
+    box-shadow: 0px 1px 20px 1px rgb(119, 119, 119);
+    margin-left: 525px;
+    margin-top: 75px; */
+    /* animation-name: slide;
+    animation: slide-in .5s ease-in-out;  */
+}
+
+.formuliervraag {
     text-align: center;
     display: inline-block;
     width: 400px;
@@ -89,12 +106,12 @@ nav {
     margin-left: 525px;
     margin-top: 75px;
     animation-name: slide;
-    animation: slide-in .5s ease-in-out; 
+    animation: slide-in .5s ease-in-out;
 }
 
 @keyframes slide-in {
     0% {
-      transform: translateX(50%);
+      transform: translateX(80%);
       opacity: 0;
       
     }
@@ -107,6 +124,18 @@ nav {
 
 .arrowdown {
     font-size: 23px;
+}
+
+.radiobtn {
+    padding-bottom: .5em;
+    text-align: left;
+}
+
+.check-vragen {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    margin-left: 7.25em;;
 }
 
 .testbutton {
@@ -133,10 +162,10 @@ nav {
     color: white;
 }
 
-.labelinput {
+/* .labelinput {
     display: block;
     font-size: 16px;
-}
+} */
 
 .vorigevraag {
     display: inline-flex;

@@ -30,3 +30,13 @@ function showVraag(n) {
 
     vragen[vraagNummer - 1].style.display = "block";
 }   
+
+
+// input test
+
+const input1 = document.getElementsById('inputtest');
+const outputvraag1 = document.getElementsById('jeroen');
+
+function mininaam() {
+    outputvraag1.innerHTML = "Wat is de geboortedatum van " + input1.value + "?";
+}
