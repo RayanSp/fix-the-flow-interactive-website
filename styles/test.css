@@ -212,3 +212,8 @@ nav {
     background: var(--clr-green);
     color: white;
 }
+
+.confirmpage {
+    text-align: left;
+    font-weight: bold;
+}

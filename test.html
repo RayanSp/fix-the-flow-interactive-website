@@ -42,20 +42,20 @@
               Hoe heet jou mini?
             </p>
             <!-- <label class="labelinput">Naam -->
-            <input class="inputvraag1" id="inputtest" type="text" name="name" placeholder="naam" required>
+            <input class="inputvraag1" id="antwoord1" type="text" name="name" placeholder="naam" required>
             <!-- </label> -->
           </h2>
           <a class="vorigevraag" onclick="next(-1)">Vorige</a>
-          <a class="volgendevraag" onclick="next(1)">Volgende</a>
+          <a class="volgendevraag" onclick="next(1); mininaam()">Volgende</a>
           </div>
 
           <div class="formuliervraag">
             <h1 class="formuliertext">Vraag 2</h1>
             <h2 class="formuliertext2">
-              <p id="jeroen">
+              <div id="jeroen">
                 Wat is de geboortedatum van ?
-              </p>
-              <input class="inputvraag2" type="date" name="borndate" placeholder="geboortedatum" required>
+              </div>
+              <input class="inputvraag2" id="antwoord2" type="date" name="borndate" placeholder="geboortedatum" required>
             </h2>
             <a class="vorigevraag" onclick="next(-1)">Vorige</a>
             <a class="volgendevraag" onclick="next(1)">Volgende</a>
@@ -69,10 +69,10 @@
                 </p>
                 <div class="check-vragen">
                 <label class="radiobtn">
-                <input type="radio" name="radio" checked> Ja
+                <input type="radio" id="antwoord3" name="radio" value="ja" checked> Ja
                 </label>
                 <label class="radiobtn">
-                <input type="radio" name="radio" checked> Nee
+                <input type="radio" id="antwoord3" name="radio" value="nee" checked> Nee
                 </label>
                 </div>
               </h2>
@@ -88,13 +88,13 @@
                   </p>
                   <div class="check-vragen">
                   <label class="radiobtn">
-                  <input type="radio" name="radio" checked> Ja
+                  <input type="radio" id="antwoord4" name="radio" value="ja" checked> Ja
                   </label>
                   <label class="radiobtn">
-                  <input type="radio" name="radio" checked> Nee
+                  <input type="radio" id="antwoord4" name="radio" value="nee" checked> Nee
                   </label>
                   <label class="radiobtn">
-                    <input type="radio" name="radio" checked> Weet ik niet
+                    <input type="radio" id="antwoord4" name="radio" value="weet ik niet"checked> Weet ik niet
                   </label>
                   </div>
                 </h2>
@@ -110,13 +110,13 @@
                     </p>
                     <div class="check-vragen">
                     <label class="radiobtn">
-                    <input type="radio" name="radio" checked> Ja
+                    <input type="radio" id="antwoord5" name="radio" value="ja" checked> Ja
                     </label>
                     <label class="radiobtn">
-                    <input type="radio" name="radio" checked> Nee
+                    <input type="radio" id="antwoord5" name="radio" value="nee" checked> Nee
                     </label>
                     <label class="radiobtn">
-                      <input type="radio" name="radio" checked> Weet ik niet
+                      <input type="radio" id="antwoord5" name="radio" value="Weet ik niet" checked> Weet ik niet
                     </label>
                     </div>
                   </h2>
@@ -132,19 +132,32 @@
                       </p>
                       <div class="check-vragen">
                       <label class="radiobtn">
-                      <input type="radio" name="radio" checked> Ja
+                      <input type="radio" id="antwoord6" name="radio" value="ja" checked> Ja
                       </label>
                       <label class="radiobtn">
-                      <input type="radio" name="radio" checked> Nee
+                      <input type="radio" id="antwoord6" name="radio" value="nee" checked> Nee
                       </label>
                       <label class="radiobtn">
-                        <input type="radio" name="radio" checked> Weet ik niet
+                        <input type="radio" id="antwoord6" name="radio" value="Weet ik niet" checked> Weet ik niet
                       </label>
                       </div>
                     </h2>
                     <a class="vorigevraag" onclick="next(-1)">Vorige</a>
-                    <a class="volgendevraag" onclick="next(1)" href="https://vinimini.nl/">Afronden</a>
+                    <a class="volgendevraag" onclick="next(1); inputtekst()" href="#">Afronden</a>
                     </div>
+
+                    <div class="formuliervraag">
+                      <h1 class="formuliertext">bevestingspagina</h1>
+                      <h2 class="formuliertext2">
+                        <p>
+                          ...
+                        </p>
+                      <div id="testantwoorden">
+                      </div>
+                      </h2>
+                      <a class="vorigevraag" onclick="next(-1)">Vorige</a>
+                      <a class="volgendevraag" onclick="next(1)" href="https://vinimini.nl/">Klaar</a>
+                      </div>
 
       </div>
 

@@ -32,11 +32,23 @@ function showVraag(n) {
 }   
 
 
-// input test
-
-const input1 = document.getElementsById('inputtest');
-const outputvraag1 = document.getElementsById('jeroen');
-
 function mininaam() {
-    outputvraag1.innerHTML = "Wat is de geboortedatum van " + input1.value + "?";
+    const inputMini = document.getElementById('antwoord1').value; 
+    const outputvraag1 = document.getElementById('jeroen');
+    console.log(inputMini);
+    outputvraag1.innerHTML = 'Wat is de geboortedatum van ' + inputMini + '?';
 }
+
+
+
+function inputtekst() {
+    const inputNaam = document.getElementById('antwoord1').value; 
+    const inputDate = document.getElementById('antwoord2').value; 
+    const inputChild = document.getElementById('antwoord3').value; 
+    const inputAllergie = document.getElementById('antwoord4').value; 
+    const inputEczeem = document.getElementById('antwoord5').value; 
+    const inputAllergie2 = document.getElementById('antwoord6').value;  
+    const plaatshier = document.getElementById('testantwoorden')
+
+    plaatshier.innerHTML = '<div class="confirmpage"> Naam: ' + inputNaam + '<br>Geboortedatum: ' + inputDate + '<br>Eerste kindje?: ' + inputChild + '<br>Eerdere allergie?: ' + inputAllergie + '<br>Eczeem: ' + inputEczeem + '<br>Allergie binnen de familie?: ' + inputAllergie2; '</div>'
+} 
