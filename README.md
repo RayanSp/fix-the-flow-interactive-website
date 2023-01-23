@@ -8,25 +8,27 @@ Vinimini form
   * [Bronnen](#bronnen)
 
 ## Opdracht
-Voor Vinimini heb ik een pagina gemaakt waar je een account aan kan maken. 
+Wij hebben de opdracht gekregen om een interactie te maken met javasciprt, in de website voor de opdrachtgever. Ik heb besloten om de interactie te verwerken in test die de gebruiker moet maken. Als je doorklikt naar de volgende vraag, zie je een slide function. Deze functie is gemaakt met CSS en Javascript.  
 
-Op dit moment ziet de pagina er zo uit:
+Dit is de begin pagina:
 
-<img width="1440" alt="Schermafbeelding 2022-11-28 om 10 29 40" src="https://user-images.githubusercontent.com/112861069/204242219-c5f6b573-1a01-4d75-b4be-89b461e15cd9.png">
-
-Je ziet dat ik een form heb gemaakt met 3 invoervelden, met daarop volgend een submit button. Bovenaan heb ik een navbaar staan, gelijksoortig aan die van Vinimini.
-Dit om te laten zien dat het duidelijk om de website gaat van Vinimini. Ook heb ik de kleuren en lettertype overgenomen van Vinimini. 
+![image](https://user-images.githubusercontent.com/112861069/213927540-b4b9f46c-4b9c-4ebc-8109-df3cbe124087.png)
 
 
 ## Kenmerken
 De HTML ziet er alsvolgt uit;
-<img width="995" alt="Schermafbeelding 2022-11-28 om 10 32 56" src="https://user-images.githubusercontent.com/112861069/204242998-29a68d16-b3d7-41cf-9d14-b1bdd35dbbe3.png">
+
+<img width="778" alt="Schermafbeelding 2023-01-23 om 10 38 52" src="https://user-images.githubusercontent.com/112861069/214007426-befd1f58-6ccb-49cd-a326-f08c4aa6376d.png">
 
 
 En hier een foto van mijn CSS code;
-<img width="620" alt="Schermafbeelding 2022-11-28 om 10 33 15" src="https://user-images.githubusercontent.com/112861069/204243022-c3fcbe38-3944-47ab-b444-f4408578d00b.png">
-<img width="515" alt="Schermafbeelding 2022-11-28 om 10 33 32" src="https://user-images.githubusercontent.com/112861069/204243051-5d259548-8952-4567-bdb4-d1d8aad07067.png">
 
+<img width="423" alt="Schermafbeelding 2023-01-23 om 10 37 59" src="https://user-images.githubusercontent.com/112861069/214007380-30cb28b1-d8d1-406c-a23e-10c9f8309445.png">
+
+
+Javasciprt:
+
+<img width="655" alt="Schermafbeelding 2023-01-23 om 10 37 40" src="https://user-images.githubusercontent.com/112861069/214007371-83ecdb49-9738-4a42-b9d9-4ce11b6a3eb6.png">
 
 ## Bronnen 
 MDN
