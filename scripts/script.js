@@ -34,7 +34,7 @@ function showVraag(n) {
 
 function mininaam() {
     const inputMini = document.getElementById('antwoord1').value; 
-    const outputvraag1 = document.getElementById('jeroen');
+    const outputvraag1 = document.getElementById('vraag2input');
     console.log(inputMini);
     outputvraag1.innerHTML = 'Wat is de geboortedatum van ' + inputMini + '?';
 }

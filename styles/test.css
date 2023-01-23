@@ -81,8 +81,8 @@ nav {
     transition: 0.2s ease-in-out;
 }
 
-.testformulier {
-    /* text-align: center;
+/* .testformulier {
+    text-align: center;
     display: inline-block;
     width: 400px;
     height: 430px;
@@ -92,8 +92,8 @@ nav {
     margin-left: 525px;
     margin-top: 75px; */
     /* animation-name: slide;
-    animation: slide-in .5s ease-in-out;  */
-}
+    animation: slide-in .5s ease-in-out; 
+} */
 
 .formuliervraag {
     text-align: center;
